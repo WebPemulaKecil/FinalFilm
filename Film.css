@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: #fff;
+}
+
+.video-container, .bio-container {
+    max-width: 800px;
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #333;
+}
+
+.video-title, .bio-title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Responsivitas */
+@media (max-width: 600px) {
+    .video-title, .bio-title {
+        font-size: 18px;
+    }
+}
+
